@@ -1,0 +1,18 @@
+body {
+    background-color: burlywood;
+}
+@media screen and (max-width:767px) {
+    navbar-brand {
+        display: none;
+    }
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    padding: 2rem;
+    background-color:lightcyan;
+}
