@@ -107,7 +107,7 @@ function crearTabla() {
     cadena = cadena + "<th>Correo</th>";
     cadena = cadena + "<th>Teléfono</th>";
     cadena = cadena + "<th>Comentario</th>";
-    cadena = cadena + "<th>Acciones</th></tr></thead>"; 
+    cadena = cadena + "<th>Eliminar</th></tr></thead>"; 
     cadena = cadena + "<tbody>";
 
     for (const dato of datos) {
