@@ -15,6 +15,7 @@ function doProgress (){
     else{
         progressBar.textContent="!Proceso completo";
         doLogin();
+        window.location.href = 'tictactoe.html';
     }
 }
 
