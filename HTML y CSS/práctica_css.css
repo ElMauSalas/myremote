@@ -1,0 +1,103 @@
+body {
+    background-image: url("Fondo.jpg");
+    background-size: auto; 
+    margin: 20px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.imagen-div{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    width: auto;
+    font-family: Impact;
+    font-weight: normal;
+    max-width: 100%;
+    padding: 2%;
+    font-size: 4em;
+    color: rgba(216, 216, 216, 0.961);
+}
+
+.Intro {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 4%;
+    border-radius: 15px;
+    color: white;
+}
+
+p {
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(216, 216, 216, 0.961);
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: rgba(216, 216, 216, 0.961);
+}
+
+.imagenes-mascotas {
+    display: flex;
+    justify-content: space-around; /* Distribuir el espacio uniformemente */
+    flex-wrap: wrap; /* Permitir que se ajusten en varias filas si es necesario */
+    gap: 20px; /* Espacio entre las imágenes */
+    border-radius: 10px; 
+    margin-bottom: 30px;
+}
+
+.adopcion{
+    
+    font-family: Haettenschweilerf;
+    font-weight: lighter;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 2%;
+    border-radius: 15px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    font-family: Impact;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+ul, ol {
+    color: white;
+    font-family: monospace; 
+    font-size: 20px; 
+}
+
+ul li, ol li {
+    margin-bottom: 10px; 
+}
+
